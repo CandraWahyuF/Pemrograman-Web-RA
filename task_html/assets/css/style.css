@@ -1,0 +1,48 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: gray;
+}
+
+h1 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  padding: 5px;
+}
+
+img {
+  width: 200px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  text-align: center;
+}
+
+.header {
+  background: #333;
+}
+
+.navigasi {
+  font-size: 15pt;
+}
+
+nav {
+  margin: 10px;
+}
+
+.footer {
+  padding: 1px;
+  text-align: center;
+  height: 90px;
+  line-height: 10px;
+  background: #333;
+  color: #fff;
+}
