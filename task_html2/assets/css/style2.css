@@ -1,0 +1,52 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #212db1, #db2c2c);
+}
+
+#card {
+  border-radius: 8px;
+  height: 320px;
+  width: 320px;
+  background: #fbfbfb;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  margin: 8.5rem auto;
+}
+
+#card-content {
+  text-align: center;
+}
+
+#card-title {
+  padding-top: 5px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.underline-title {
+  background: linear-gradient(to right, #212db1, #db2c2c);
+  height: 3px;
+  width: 215px;
+  margin: -1rem auto;
+}
+
+table {
+  text-align: left;
+  margin: 3rem auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+  background-color: gray;
+}
+
+td {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}

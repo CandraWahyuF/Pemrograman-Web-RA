@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Pendaftaran</title>
+  </head>
+
+  <body>
+    <div id="card">
+      <div id="card-content">
+        <div id="card-title">
+          <h2>Formulir Pendaftaran</h2>
+          <div class="underline-title"></div>
+        </div>
+
+        <form action="index.php" method="GET" autocomplete="on">
+          <table>
+            <tr>
+              <td>Nama</td>
+              <td>:</td>
+              <td><input type="text" name="nama" required /></td>
+            </tr>
+
+            <tr>
+              <td>NIM</td>
+              <td>:</td>
+              <td><input type="text" name="nim" required /></td>
+            </tr>
+
+            <tr>
+              <td>Program Studi</td>
+              <td>:</td>
+              <td><input type="text" name="prodi" required /></td>
+            </tr>
+
+            <tr>
+              <td>Mata Kuliah</td>
+              <td>:</td>
+              <td><input type="text" name="matkul" required /></td>
+            </tr>
+          </table>
+
+          <input id="btn-submit" type="button" name="btn-submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
